@@ -6,7 +6,7 @@ get_header();
 ?>
 <div class="container">
     <?php
-      query_posts(array('category_name' => 'projekt', 'orderby' => 'date', 'order' => 'ASC', ));
+      query_posts(array('category_name' => 'projekt', 'orderby' => 'date', 'order' => 'DESC', ));
       if (have_posts()) : while (have_posts()) : the_post();
     ?>
     <div class="row-fluid">
