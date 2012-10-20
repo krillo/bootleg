@@ -10,7 +10,7 @@
             <ul class="thumbnails">
           <?php endif; ?>
           <li class="span4">            
-            <a class="thumbnail" href="#"><?php the_title(); ?><?php the_post_thumbnail(); ?></a> 
+            <a class="thumbnail" href="/kategori/projekt/"><?php the_title(); ?><?php the_post_thumbnail(); ?></a> 
           </li>
           <?php if($i % 3 == 2): ?>
             </ul>

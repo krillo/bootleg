@@ -103,19 +103,29 @@ if(is_home()){
       <ul class="thumbnails">
         <li class="span6">
           <div class="thumbnail">
-            <a href="http://sv.wordpress.org/"><img alt="Wordpress" src="<?php echo bloginfo(stylesheet_directory); ?>/img/wordpress.png" title="Wordpress.org" style="float:left;"></a>
+<a href="http://sv.wordpress.org/"><img alt="Wordpress" src="<?php echo bloginfo(stylesheet_directory); ?>/img/wordpress.png" title="Wordpress.org" style="float:right;margin:20px 20px 0 0;"></a>            
             <div class="caption">
-              <?php
-              $queryObject = new WP_Query('pagename=wordpress-konsult');
-              if ($queryObject->have_posts()) {
-                while ($queryObject->have_posts()) {
-                  $queryObject->the_post(); ?>
-                  <h3><a href="<?php the_permalink(); ?>" name="wordpresskonsult"> <?php the_title(); ?> </a></h3>
-                  <a href="<?php the_permalink(); ?>"><p><?php echo get_post_meta(get_the_ID(), "excerpt", true);  ?></p></a>          
-              <?php  }
-              }
-              ?>
+              <h3><a href="<?php echo get_post_permalink( get_page_by_path('wordpress-konsult')->ID); ?>" name="wordpress-konsult">WORDPRESS-KONSULT.</a></h3>
+              <ul>
+                <li>
+                  Vi erbjuder Wordpress-programmering åt Webbyråer
+                </li>
+                <li>
+                  Vi är helhetsleverantör om ni behöver en ny sajt
+                </li>
+                <li>
+                  Vi bygger WordPress-plugins
+                </li>
+                <li>
+                  Vi hjälper till med er befintliga sajt
+                </li>
+                <li>
+                  Vi håller i utbildningar
+                </li>
+              </ul>
+              
             </div>
+            
           </div>
         </li>
         <li class="span6">
@@ -166,7 +176,7 @@ if(is_home()){
         <li class="span6">
           <div class="thumbnail">
             <div class="caption" id="samarbetspartners">
-              <h3>SAMARBETSPARTNERS.</h3>
+              <h3><a href="<?php echo get_post_permalink( get_page_by_path('samarbetspartners')->ID); ?>" name="samarbetspartners">SAMARBATSPARTNERS.</a></h3>
               <a href="http://24hr.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/24hr.png"   class="left" /></a>
               <a href="http://olsheden.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/olsheden_1.png"   class="" /></a>
               <a href="http://www.macneale.com/2011/" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/macneale.png"   class="" /></a>
@@ -175,26 +185,18 @@ if(is_home()){
           </div>
         </li>
         <li class="span6">
-          <div class="thumbnail">
+          <div class="thumbnail">        
             <div class="caption">
-              <h3 >TJÄNSTER.</h3>
-              <ul>
-                <li>
-                  Vi erbjuder Wordpress-programmering åt Webbyråer
-                </li>
-                <li>
-                  Vi är helhetsleverantör om ni behöver en sajt från grunden
-                </li>
-                <li>
-                  Vi bygger WordPress-plugins
-                </li>
-                <li>
-                  Vi hjälper till med er befintliga sajt
-                </li>
-                <li>
-                  Vi håller i utbildningar
-                </li>
-              </ul>
+              <?php
+              $queryObject = new WP_Query('pagename=varfor-wordpress');
+              if ($queryObject->have_posts()) {
+                while ($queryObject->have_posts()) {
+                  $queryObject->the_post(); ?>
+                  <h3><a href="<?php the_permalink(); ?>" name="varfor-wordpress" style="text-transform: uppercase;"><?php the_title(); ?>.</a></h3>
+                  <a href="<?php the_permalink(); ?>"><p><?php echo get_post_meta(get_the_ID(), "excerpt", true);  ?></p></a>          
+              <?php  }
+              }
+              ?>
             </div>
           </div>
         </li>
