@@ -105,7 +105,7 @@ if(is_home()){
           <div class="thumbnail">
 <a href="http://sv.wordpress.org/"><img alt="Wordpress" src="<?php echo bloginfo(stylesheet_directory); ?>/img/wordpress.png" title="Wordpress.org" style="float:right;margin:20px 20px 0 0;"></a>            
             <div class="caption">
-              <h3><a href="<?php echo get_post_permalink( get_page_by_path('wordpress-konsult')->ID); ?>" name="wordpress-konsult">WORDPRESS-KONSULT.</a></h3>
+              <h3><a href="/wordpress-konsult" name="wordpress-konsult">WORDPRESS-KONSULT.</a></h3>
               <ul>
                 <li>
                   Vi erbjuder Wordpress-programmering åt Webbyråer
@@ -132,7 +132,7 @@ if(is_home()){
           <div class="thumbnail">
             <div class="caption">
               <div class="span8">
-                <h3><a href="<?php echo get_post_permalink( get_page_by_path('kontakt')->ID); ?>" name="kontakt"> KONTAKT.</a></h3>
+                <h3><a href="/kontakt" name="kontakt"> KONTAKT.</a></h3>
                 <ul >
                   <li>
                     Kristian Erendi
@@ -176,7 +176,7 @@ if(is_home()){
         <li class="span6">
           <div class="thumbnail">
             <div class="caption" id="samarbetspartners">
-              <h3><a href="<?php echo get_post_permalink( get_page_by_path('samarbetspartners')->ID); ?>" name="samarbetspartners">SAMARBATSPARTNERS.</a></h3>
+              <h3><a href="/samarbetspartners" name="samarbetspartners">SAMARBATSPARTNERS.</a></h3>
               <a href="http://24hr.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/24hr.png"   class="left" /></a>
               <a href="http://olsheden.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/olsheden_1.png"   class="" /></a>
               <a href="http://www.macneale.com/2011/" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/macneale.png"   class="" /></a>
