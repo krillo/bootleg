@@ -4,7 +4,7 @@
   <div class="row-fluid">
       <?php
       $i = 0;
-      query_posts(array('category_name' => 'projekt', 'orderby' => 'date', 'order' => 'DESC', 'posts_per_page' => 6));
+      query_posts(array('category_name' => 'splash', 'orderby' => 'date', 'order' => 'DESC', 'posts_per_page' => 6));
       if (have_posts()) : while (have_posts()) : the_post();?>
           <?php if($i % 3 == 0): ?>
             <ul class="thumbnails">
