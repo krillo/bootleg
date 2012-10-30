@@ -174,7 +174,7 @@ if(is_home()){
         </li>
       </ul>
     </div>
-    <?php if(is_home()): ?>
+    <?php if(is_front_page()): ?>
     <div class="row-fluid">
       <ul class="thumbnails">
         <li class="span6">
