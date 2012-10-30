@@ -122,6 +122,9 @@ if(is_home()){
                 <li>
                   Vi håller i utbildningar
                 </li>
+                <li>
+                  Vi finns i Helsingborg
+                </li>
               </ul>
               
             </div>
@@ -151,6 +154,7 @@ if(is_home()){
                       <img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Kristian Erendi's profile on LinkedIn">
                     </a>
                   </li>
+                  <li>Helsingborg</li>
                 </ul>
               </div>
 
