@@ -103,24 +103,21 @@ if(is_home()){
       <ul class="thumbnails">
         <li class="span6">
           <div class="thumbnail">
-<a href="http://sv.wordpress.org/"><img alt="Wordpress" src="<?php echo bloginfo(stylesheet_directory); ?>/img/wordpress.png" title="Wordpress.org" style="float:right;margin:20px 20px 0 0;"></a>            
+<a href="http://sv.wordpress.org/"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/wordpress.png" alt="Wordpress-konsult" title="Wordpress på Svenska" style="float:right;margin:20px 20px 0 0;"></a>            
             <div class="caption">
               <h3><a href="/wordpress-konsult" name="wordpress-konsult">WORDPRESS-KONSULT.</a></h3>
               <ul>
                 <li>
-                  Vi erbjuder Wordpress-programmering åt Webbyråer
+                  Vi bygger webbsidor åt företag
                 </li>
                 <li>
-                  Vi är helhetsleverantör om ni behöver en ny sajt
+                  Vi erbjuder Wordpress- och pluginprogrammering åt webbyråer
+                </li>                
+                <li>
+                  Vi hjälper till med er befintliga WordPress-sajt
                 </li>
                 <li>
-                  Vi bygger WordPress-plugins
-                </li>
-                <li>
-                  Vi hjälper till med er befintliga sajt
-                </li>
-                <li>
-                  Vi håller i utbildningar
+                  Vi håller i WordPress-utbildningar
                 </li>
                 <li>
                   Vi finns i Helsingborg
@@ -151,7 +148,7 @@ if(is_home()){
                   </li>
                   <li>
                     <a href="http://se.linkedin.com/in/kristianerendi">
-                      <img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Kristian Erendi's profile on LinkedIn">
+                      <img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Kristian Erendi's profile on LinkedIn" title="Kristian Erendi's profile on LinkedIn">
                     </a>
                   </li>
                   <li>Helsingborg</li>
@@ -161,11 +158,11 @@ if(is_home()){
               <div id="myCarousel" class="carousel slide span4">
                 <!-- Carousel items -->
                 <div class="carousel-inner">
-                  <div class="active item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/kristian_erendi_1_150.png"   class="img-rounded right" alt="Kristian Erendi Konsult" name="Kristian Erendi Konsult"/></div>
-                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/smogen_150.png"   class="img-rounded right"  alt="WordPress konsult" name="WordPress konsult"/></div>
-                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/kristian_erendi_2_150.png"   class="img-rounded right" alt="Kristian Erendi Konsult" name="Kristian Erendi Konsult" /></div>
-                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/sniper_150.png"   class="img-rounded right" alt="Helsingborg" name="Helsingborg"/></div>
-                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/kristian_erendi_3_150.png"   class="img-rounded right" alt="Kristian Erendi Helsingborg" name="Kristian Erendi Helsingborg"/></div>
+                  <div class="active item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/kristian_erendi_1_150.png"   class="img-rounded right" alt="Kristian Erendi Konsult" title="Kristian Erendi WordPress-konsult"/></div>
+                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/smogen_150.png"   class="img-rounded right"  alt="WordPress konsult" title="WordPress konsult"/></div>
+                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/kristian_erendi_2_150.png"   class="img-rounded right" alt="Kristian Erendi Konsult" title="Kristian Erendi WordPress-konsult" /></div>
+                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/sniper_150.png"   class="img-rounded right" alt="Helsingborg" title="Helsingborg"/></div>
+                  <div class="item"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/kristian_erendi_3_150.png"   class="img-rounded right" alt="Kristian Erendi Helsingborg" title="Kristian Erendi Helsingborg"/></div>
                 </div>
 
               </div>
@@ -180,11 +177,11 @@ if(is_home()){
         <li class="span6">
           <div class="thumbnail">
             <div class="caption" id="samarbetspartners">
-              <h3><a href="/samarbetspartners" name="samarbetspartners">SAMARBATSPARTNERS.</a></h3>
-              <a href="http://24hr.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/24hr.png"   class="left" alt="Webbyrån 24hr.se" /></a>
-              <a href="http://olsheden.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/olsheden_1.png"   class="" alt="reklambyrån Olsheden.se"/></a>
-              <a href="http://www.macneale.com/2011/" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/macneale.png"   class="" alt="reklambyrån MacNeale"/></a>
-              <a href="http://www.crealevant.co.uk/" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/crealevant.png"   class="" alt="Webbyrån crealevant.co.uk"/></a>
+              <h3><a href="/samarbetspartner" name="samarbetspartner">SAMARBATSPARTNER.</a></h3>
+              <a href="http://24hr.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/24hr.png"   class="left" alt="Webbyrå 24hr.se" title="Webbyrå 24hr.se"/></a>
+              <a href="http://olsheden.se" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/olsheden_1.png"   class="" alt="Webbyrå Olsheden.se" title="Webbyrå Olseheden.se"/></a>
+              <a href="http://www.macneale.com/2011/" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/macneale.png"   class="" alt="Webbyrå MacNeale" title="Webbyrå MacNeale"/></a>
+              <a href="http://www.crealevant.co.uk/" target="_blank"><img src="<?php echo bloginfo(stylesheet_directory); ?>/img/crealevant.png"   class="" alt="Webbyrå Crealevant" title="Webbyrå Crealevant"/></a>
             </div>
           </div>
         </li>
